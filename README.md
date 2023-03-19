@@ -3,6 +3,8 @@
 This a python progarm that takes in a set of real life data and try to produce a line of best fit for the data. 
 Any following assignment will focous on Supervised Learning including Loss function and Gradient Descent.  
   
+![Linear Regression](line_of_best_fit_feat_12.png)
+  
 Line of best fit, or Linear Regression are perfect problem to tackle with supervised learning. The main goal is to produce
 a linear function, which predict the future data based on the set of data given. If there is any additonal data plot into the
 set, this line will be able to predict that data and be near that data. 
