@@ -1,4 +1,5 @@
 # Experimental of Data Learning with Linear Regression
+
 ---
 This a python progarm that takes in a set of real life data and try to produce a line of best fit for the data. 
 Any following assignment will focous on Supervised Learning including Loss function and Gradient Descent.  
@@ -10,7 +11,9 @@ a linear function, which predict the future data based on the set of data given.
 set, this line will be able to predict that data and be near that data. 
   
 **1.** First we defined a learning model. A model are similar to a function, which requires an input and parameters. 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 $$\hat{y} = \sum_{i=1}^N w_i \cdot x_i + b = X \cdot W + b$$
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 The output $\hat{y}$ are sum of all $x_i$ input mutilple with $w_i$ weight plus $b$ a bias. In another words, the output are 
 dot product of $X$ the input with $W$ and $b$ weight and bias as parameters in our model. This output or `Label`, are our 
 initial prediction of our dataset and it does not perform well. However we can train the model with our given dataset by 
